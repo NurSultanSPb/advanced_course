@@ -13,6 +13,12 @@ spring:
         - Header=spring-cloud-course, \w*
         filters:
         - RemoveRequestHeader=spring-cloud-course
+      - id: client-service-2
+        uri: lb://client-service
+        predicates:
+        - Path=/api/client/**
+        filters:
+        - SetStatus=403
   application:
     name: api-gateway
 server:
