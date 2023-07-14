@@ -20,4 +20,9 @@ public class ClientController {
     public List<Book> getAllBooksFromClient() {
         return bookServiceFeign.getAllBooks();
     }
+
+    @GetMapping("test")
+    public String testLoadBalancer() {
+        return "Hello from client-service";
+    }
 }
