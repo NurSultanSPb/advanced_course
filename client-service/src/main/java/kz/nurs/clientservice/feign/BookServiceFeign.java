@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 @FeignClient(name = "book-service", fallbackFactory = BookServiceFeignFallbackFactory.class)
 public interface BookServiceFeign {

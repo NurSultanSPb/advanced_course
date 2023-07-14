@@ -12,6 +12,8 @@ spring:
         service-id: config-server
   application:
     name: client-service
+  zipkin:
+    enabled: true
 
 server:
   port: 8082
@@ -25,4 +27,8 @@ eureka:
 feign:
   circuitbreaker:
     enabled: true
+Lospring:
+  sleuth:
+    sampler:
+      probability: 2.0
 
