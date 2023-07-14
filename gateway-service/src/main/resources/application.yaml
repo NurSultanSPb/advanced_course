@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: api-gateway
   cloud:
     gateway:
       discovery:
@@ -15,8 +17,11 @@ spring:
           args:
             headerName: spring-cloud-course
         - RemoveRequestHeader=spring-cloud-course
-  application:
-    name: api-gateway
+      - id: client-update
+        uri: lb://client-update
+        predicates:
+        - Path=/api/update/**
+
 server:
   port: 8765
 

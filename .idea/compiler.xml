@@ -14,6 +14,7 @@
         <module name="config-client" />
         <module name="gateway-service" />
         <module name="client-service-2" />
+        <module name="client-update" />
         <module name="eureka-server" />
         <module name="client-service" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="book-service" options="-parameters" />
       <module name="client-service" options="-parameters" />
       <module name="client-service-2" options="-parameters" />
+      <module name="client-update" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
