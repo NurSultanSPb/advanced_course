@@ -1,0 +1,10 @@
+pring:
+ cloud:
+   stream:
+     kafka:
+       binder:
+         auto-add-partitions: true
+     bindings:
+       output:
+         destination: buckdestinationet
+         group: group

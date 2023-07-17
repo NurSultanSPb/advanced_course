@@ -31,4 +31,6 @@ Lospring:
   sleuth:
     sampler:
       probability: 2.0
-
+logging:
+  file:
+    name: /Users/nursultan/logs/application.log
