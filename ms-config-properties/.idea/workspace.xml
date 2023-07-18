@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f91497-9e36-4af0-a1cb-a27c6d5d2f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../check-book-service/src/main/java/kz/nurs/checkbookservice/controller/CheckBookServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../check-book-service/src/main/java/kz/nurs/checkbookservice/model/RemotePropertyField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ms-config-properties.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../check-book-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check-book-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-book-service/src/main/java/kz/nurs/storebookservice/controller/StoreBookServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-book-service/src/main/java/kz/nurs/storebookservice/model/RemotePropertyField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check-book-service/src/main/java/kz/nurs/checkbookservice/model/RemotePropertyField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../check-book-service/src/main/java/kz/nurs/checkbookservice/model/RemotePropertyField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check-book-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../check-book-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-book-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../store-book-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-book-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../store-book-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

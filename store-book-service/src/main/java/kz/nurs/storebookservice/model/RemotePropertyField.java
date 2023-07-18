@@ -1,4 +1,4 @@
-package kz.nurs.checkbookservice.model;
+package kz.nurs.storebookservice.model;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

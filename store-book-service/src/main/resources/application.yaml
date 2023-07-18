@@ -1,5 +1,24 @@
 spring:
+  application:
+    name: store-book-service
+  profiles:
+    active: dev
+  config:
+    import: "optional:configserver:"
   cloud:
+    bus:
+      id: store-book-service
+      refresh:
+        enabled: true
+    config:
+      fail-fast: true
+      retry:
+        max-attempts: 20
+        max-interval: 15000
+        initial-interval: 10000
+      discovery:
+        enabled: true
+        service-id: config-server
     stream:
       kafka:
         binder:
@@ -9,3 +28,10 @@ spring:
           destination: check-book
           group: group
           binder: kafka
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
