@@ -10,3 +10,7 @@ spring:
         bookProcessing-out-0:
           destination: creation-book
           group: group
+  application:
+    name: creation-book-service
+server:
+  port: 8085
