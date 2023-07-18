@@ -5,11 +5,11 @@ spring:
         binder:
           auto-add-partitions: true
       bindings:
-        input:
-          destination: destination
+        bookProcessing-in-0:
+          destination: creation-book
           group: group
           binder: kafka
-        output:
-          destination: destination
+        bookProcessing-out-0:
+          destination: check-book
           group: group
           binder: kafka

@@ -1,10 +1,12 @@
-pring:
- cloud:
-   stream:
-     kafka:
-       binder:
-         auto-add-partitions: true
-     bindings:
-       output:
-         destination: buckdestinationet
-         group: group
+spring:
+  cloud:
+    stream:
+      poller:
+        fixed-delay: 10000
+      kafka:
+        binder:
+          auto-add-partitions: true
+      bindings:
+        bookProcessing-out-0:
+          destination: creation-book
+          group: group

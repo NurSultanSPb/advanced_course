@@ -17,4 +17,9 @@ public class Book {
     private String description;
     private String status = "unchecked";
     private int price;
+
+    public Book setStatus(String status) {
+        this.status = status;
+        return this;
+    }
 }
