@@ -13,12 +13,14 @@
         <module name="store-book-service" />
         <module name="eureka-server" />
         <module name="creation-book-service" />
+        <module name="reactive-web-app-client" />
         <module name="config-server" />
         <module name="check-book-service" />
         <module name="eureka-client" />
         <module name="advanced_course" />
         <module name="gateway-service" />
         <module name="client-service-2" />
+        <module name="reactive-web-app" />
         <module name="client-service" />
       </profile>
     </annotationProcessing>
@@ -40,6 +42,8 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="reactive-web-app" options="-parameters" />
+      <module name="reactive-web-app-client" options="-parameters" />
       <module name="store-book-service" options="-parameters" />
     </option>
   </component>

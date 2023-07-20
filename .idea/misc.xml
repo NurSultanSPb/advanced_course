@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/creation-book-service/pom.xml" />
         <option value="$PROJECT_DIR$/check-book-service/pom.xml" />
         <option value="$PROJECT_DIR$/store-book-service/pom.xml" />
+        <option value="$PROJECT_DIR$/reactive-web-app/pom.xml" />
+        <option value="$PROJECT_DIR$/reactive-web-app-client/pom.xml" />
       </list>
     </option>
   </component>

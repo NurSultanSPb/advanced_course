@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f91497-9e36-4af0-a1cb-a27c6d5d2f45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../check-book-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../check-book-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../creation-book-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../creation-book-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../store-book-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../store-book-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689673354725</updated>
-      <workItem from="1689673356129" duration="1187000" />
+      <workItem from="1689673356129" duration="1693000" />
     </task>
     <servers />
   </component>
