@@ -1,7 +1,9 @@
 package kz.nurs.reactivewebapp.model;
 
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 
+@Data
 public class Book {
 
     @Id

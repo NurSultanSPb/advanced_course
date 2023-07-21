@@ -25,4 +25,8 @@ public class BookService {
     public Mono<Book> getOneBook(Long id) {
         return bookRepository.findById(id);
     }
+
+    public Mono<Book> addOneBook(Book book) {
+        return bookRepository.save(book);
+    }
 }
